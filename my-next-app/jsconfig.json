@@ -4,5 +4,7 @@
     "paths": {
       "@styles/*": ["src/styles/*"]
     }
-  }
+  },
+  "include": ["src/**/*"], // Adjust this if your code is outside `src`
+  "exclude": ["node_modules"]
 }
